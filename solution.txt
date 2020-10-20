@@ -1,0 +1,13 @@
+git clone https://github.com/maximmalashev/epg1_git
+cd epg1-git/
+git branch hw-19227
+git checkout rebase-me
+git rebase hw-19227
+git checkout hw-19227
+git merge rebase-me
+git checkout merge-me 
+git checkout hw-19227
+git merge merge-me
+code README.md (resolving the conflict in vscode)
+git add *
+git commit
